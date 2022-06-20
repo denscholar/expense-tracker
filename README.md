@@ -2,10 +2,9 @@
 
 Expense tracker is an application that keeps tracks of users expenses and income with respect to the date the transaction. Users can add and delete trasactions and it reflects on the chart as shown in the below.
 
+## Image
+
 ![expense1](https://user-images.githubusercontent.com/48631109/174508825-ec6f5453-4e4e-498a-8513-a0ad882c0d48.PNG)
-4
-​
-22
 
 ## Getting started
 
