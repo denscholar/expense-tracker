@@ -1,0 +1,74 @@
+.form-container{
+    /* padding: 0 0.5rem; */
+}
+
+.form-wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
+.form-control{
+    margin: 8px 0;
+}
+
+.form-control select{
+    width: 95%;
+    outline: none;
+    padding: 5px 2px;
+}
+
+.form-control input{
+    width: 95%;
+    overflow: hidden;
+    outline: none;
+    padding: 5px 2px;
+    border: none;
+}
+
+.form-control input[type=text]{
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.form-control input[type=date]{
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.form-container button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.2rem 0;
+    background: rgb(96, 98, 231);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid rgb(63, 63, 63);
+}
+
+
+.speech-detect{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;    
+}
+
+.speech-detect .wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background: green;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.speech-detect .wrapper p{
+    color: white;
+    font-size: 12px;
+}
+
+.speech-detect .wrapper svg{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

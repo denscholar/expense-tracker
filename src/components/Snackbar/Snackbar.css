@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background: green;
+    padding: 0.5rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; 
+}
+
+.wrapper p{
+    color: white;
+    font-size: 12px;
+}
+
+.wrapper svg{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

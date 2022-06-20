@@ -1,0 +1,45 @@
+.list-container{
+    overflow: auto;
+    height: auto;
+    max-height: 7rem;
+
+}
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.transaction .avatar{
+    flex: 1;
+}
+
+.transaction .content{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.transaction .delete{
+    flex: 0;
+}
+
+.content h3, p{
+    margin: 0;
+}
+
+.content h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content p{
+    font-size: 13px;
+}

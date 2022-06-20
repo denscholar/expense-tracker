@@ -1,0 +1,41 @@
+.w3-panel{
+    border-bottom: none;
+    padding: 1rem;
+    /* width: 30rem; */
+    /* min-width: 10rem; */
+}
+
+.main-card {
+    border: 5px solid rgb(255, 230, 0);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.main-card h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-card p{
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-card h2{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+@media (min-width: 800px) {
+    .main-card{
+        width: 20rem;
+
+        /* min-width: auto; */
+    }
+  }
