@@ -4,7 +4,7 @@ Expense tracker is an application that keeps tracks of users expenses and income
 
 ## Image
 
-![expense1](src/assets/Animation.gif)
+![expense1](images/Animation.gif)
 
 ## Getting started
 
