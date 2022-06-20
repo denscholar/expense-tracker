@@ -1,11 +1,16 @@
 .w3-panel{
     border-bottom: 5px solid green;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+}
+
+.detail-card{
+    width: 100%;
 }
 
 
 .detail-card .chart canvas{
-    height: 8rem;
+    height: 9rem;
+    
 }
 
 .detail-card h1{
@@ -21,3 +26,10 @@
     font-weight: 500;
     margin: 0.5rem 0;
 }
+
+@media (min-width: 800px) {
+    .w3-panel{
+        margin-top: 5rem;
+    }
+    
+  }
